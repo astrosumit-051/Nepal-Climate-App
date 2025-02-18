@@ -1,0 +1,74 @@
+input[type="number"] {
+  max-width: 80%;
+}
+
+div.tab_one {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+
+div.tab_two {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+div.tab_three {
+  position: fixed;
+  top: 70px;
+  left: 20px;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+div.tab_four {
+  height: calc(100vh - 80px);
+  position: relative;
+}
+
+#title { text-align: center; }
+      .col-sm-4 { width: 350px !important; }
+      .col-sm-8 { width: calc(100% - 350px) !important; }
+      #nepal_map { height: 100% !important; width: 100% !important; }
+
+/* Customize fonts */
+body, label, input, button, select { 
+  font-family: 'Poppins', Sans-Serif;
+  font-weight: 200px;
+}
+h1, h2, h3, h4 { font-weight: 300px; } 
+
+#map_controls {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+#map_controls:hover {
+  /* Fade in while hovering */
+  opacity: 0.95;
+  transition-delay: 0;
+}
+
+
+
+
+/* If not using map tiles, show a white background */
+.leaflet-container {
+  background-color: white !important;
+}
