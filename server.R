@@ -375,8 +375,6 @@ server <- function(input, output, session) {
   
   # --------------------------- Line chart Server Code --------------------------------------
   
-  # --------------------------- Line chart Server Code --------------------------------------
-  
   
   
   output$averageLineGraph = renderPlotly({
